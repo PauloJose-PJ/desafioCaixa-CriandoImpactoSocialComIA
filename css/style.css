@@ -1,0 +1,269 @@
+
+
+
+
+/* ------------------------------ Header */
+header {
+    background-color: #0047bb;
+    color: white;
+    padding: 15px;
+    display: flex;
+    height: 70px;
+    justify-content:space-around ;
+    align-items: center;
+}
+figure .logo {
+    width: 180px;
+    height: 75px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: #002868 solid;
+}
+figure .logo:hover {
+    transition: 1s;
+    transform: translateX(20px);
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+nav a {
+    min-width: 120px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius: 6px;
+    transition: 0.1s ease;
+    text-align: center;
+    border: #00378f solid 2px;
+}
+nav a:hover {
+    color: #4b4300;
+    background-color: #ffdf28;
+}
+
+/* ------------------------------ Section 1 */
+#service1 {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffd700;
+    border-bottom: #dfbf0b solid 20px;
+    color: #0047bb;
+}
+#service1 h1 {
+    color: #001d4d;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#service1 p {
+    color: #001d4d;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #0047bb;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn:hover {
+    background-color: #2a6cd6;
+
+}
+
+/* ------------------------------ Section 2 */
+#service2 {
+    margin: 20px 0px 50px 0px;
+}
+
+#service2 h2:first-child {
+    font-size: 18px;
+    height: 15px;
+    width: 280px;
+    background: rgb(243, 15, 15);
+    border: rgb(160, 9, 9) solid 5px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+#service2 h2 {
+    font-size: 24px;
+    padding: 30px 30px 10px;
+    text-align: center;
+    font-weight: 700;
+}
+.serv_items {
+    display: flex;
+    align-items: center;
+    margin: 10px 10px;
+    gap: 20px;
+}
+
+.btn-item {
+    background-color: white;
+    margin: 10px auto 10px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* ------------------------------ Section 3 */
+#service3 {
+    max-width: 1650px;
+    margin: 0 50px;
+    margin-bottom: 50px;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main h1 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+main h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.bens, .males, ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.bens h3 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.males h3 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+/* ------------------------------ Section 4 */
+#service4 {
+    margin: 50px;
+    background: #23467e;
+    color: #ddd8d8;
+    padding: 40px;
+    font-family: "roboto";
+}
+#service4 h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 35px;
+    color: #18e0e0;
+    font-size: 22px;
+}
+#service4 h2 {
+    margin-bottom: 20px;
+}
+#service4 span {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 35px;
+    color: #18e0e0;
+    font-size: 22px;
+}
+#service4 h2:last-child {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* ------------------------------ Section 5 */
+#service5 {
+    background-color: #fff;
+    display: flex;
+    height: auto;
+    margin: 50px;
+    color: #000;
+    padding: 40px;
+    font-family: "roboto";
+    border: #000 solid 2px;
+}
+#service5 .brasil {
+    border: #d6dfd3 solid 2px;
+    height: auto;
+    padding: 30px;
+}
+.brasil h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.brasil p {
+    line-height: 25px;
+}
+#service5 img {
+    width: 500px;
+}
+
+/* ------------------------------ Section 6 */
+#service6 {
+    background: #23467e;
+    height: auto;
+    margin: 50px;
+    color: #ddd8d8;
+    padding: 40px;
+    font-family: "roboto";
+    border: #000 solid 2px;
+}
+
+#service6 h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 35px;
+    color: #18e0e0;
+    font-size: 22px;
+}
+#service6 h2 {
+    margin-bottom: 20px;
+    }
+#service6 span {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 35px;
+    color: #18e0e0;
+    font-size: 22px;
+}
+#service6 h2:last-child {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #0047bb;
+    color: white;
+}
+
+
+
+
+
+
+
+
+    

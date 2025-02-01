@@ -1,0 +1,37 @@
+@media (max-width: 1200px) {
+    #service5 {
+        display: inline-block;
+    }
+    #service5 .brasil {
+        min-width: 300px;
+    }
+    #service5 .img {
+        min-width: 300px;
+    }
+    .brasil h1 {
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 820px) {
+    #service2{ 
+        display: inline-block;
+    }
+    .serv_items {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto 0;
+    }
+    button.btn-item {
+        width: 320px;
+        margin-top: 0;
+    }
+    header {
+        display: none;
+    }
+    #service5 {
+        margin: 0px;
+        padding: 0px;
+    }
+}
