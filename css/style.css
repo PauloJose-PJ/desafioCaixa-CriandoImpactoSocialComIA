@@ -1,54 +1,10 @@
-
-
-
-
-/* ------------------------------ Header */
-header {
-    background-color: #0047bb;
-    color: white;
-    padding: 15px;
-    display: flex;
-    height: 70px;
-    justify-content:space-around ;
-    align-items: center;
-}
-figure .logo {
-    width: 180px;
-    height: 75px;
-    border-radius: 6px;
-    cursor: pointer;
-    border: #002868 solid;
-}
-figure .logo:hover {
-    transition: 1s;
-    transform: translateX(20px);
-}
-
-nav {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    padding: 15px 10px;
-    box-sizing: border-box;
-}
-nav a {
-    min-width: 120px;
-    color: white;
-    display: inline-block;
-    font-size: 18px;
-    text-decoration: none;
-    padding: 15px 10px;
-    border-radius: 6px;
-    transition: 0.1s ease;
-    text-align: center;
-    border: #00378f solid 2px;
-}
-nav a:hover {
-    color: #4b4300;
-    background-color: #ffdf28;
-}
-
 /* ------------------------------ Section 1 */
+
+main {
+    margin: 50px 40px;
+    justify-items: center;
+}
+
 #service1 {
     text-align: center;
     padding: 50px;
@@ -79,7 +35,6 @@ nav a:hover {
 }
 .btn:hover {
     background-color: #2a6cd6;
-
 }
 
 /* ------------------------------ Section 2 */
@@ -90,7 +45,7 @@ nav a:hover {
 #service2 h2:first-child {
     font-size: 18px;
     height: 15px;
-    width: 280px;
+    width: 220px;
     background: rgb(243, 15, 15);
     border: rgb(160, 9, 9) solid 5px;
     margin: 0 auto;
@@ -106,6 +61,7 @@ nav a:hover {
 .serv_items {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 10px 10px;
     gap: 20px;
 }
@@ -124,22 +80,18 @@ nav a:hover {
 #service3 {
     max-width: 1650px;
     margin: 0 50px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
-
-main section {
-    margin-bottom: 20px;
-}
-
-main h1 {
+#service3 h1 {
     font-weight: 700;
     font-size: 24px;
-    margin-bottom: 30px;
     text-align: center;
+    margin: 20px;
 }
-main h2 {
+#service3 h2 {
     margin-bottom: 10px;
     text-align: center;
+    margin: 20px;
 }
 
 .bens, .males, ul li{
@@ -159,7 +111,7 @@ main h2 {
 
 /* ------------------------------ Section 4 */
 #service4 {
-    margin: 50px;
+    margin: 50px 0px;
     background: #23467e;
     color: #ddd8d8;
     padding: 40px;
@@ -178,7 +130,6 @@ main h2 {
 #service4 span {
     font-size: 18px;
     font-weight: bold;
-    line-height: 35px;
     color: #18e0e0;
     font-size: 22px;
 }
@@ -190,76 +141,92 @@ main h2 {
 /* ------------------------------ Section 5 */
 #service5 {
     background-color: #fff;
-    display: flex;
     height: auto;
-    margin: 50px;
+    width: auto;
+    margin: 50px 0px;
+    display: flex;
     color: #000;
-    padding: 40px;
     font-family: "roboto";
-    border: #000 solid 2px;
+    border: #d6dfd3 solid 4px;
+    align-items: center;
 }
 #service5 .brasil {
-    border: #d6dfd3 solid 2px;
     height: auto;
     padding: 30px;
+    width: 800px;
+    text-align: justify;
+}
+#service5 .brasil p {
+    border-left: #d6dfd3 solid 2px;
+    padding: 0px 30px 30px 30px;
+    min-width: 200px;
+}
+#service5 .banner {
+    display: none
+}
+#service5 .bandeira {
+    max-width: 90%;
+    padding: 20px;
 }
 .brasil h1 {
     font-weight: 700;
     margin-bottom: 30px;
+    max-width: 90%;
 }
-.brasil p {
-    line-height: 25px;
-}
-#service5 img {
-    width: 500px;
+/* ------------------------------ Section 6 */
+#service4 span.amare{
+    color: rgb(224, 224, 10);
+    font-weight: 400;
 }
 
-/* ------------------------------ Section 6 */
 #service6 {
     background: #23467e;
     height: auto;
-    margin: 50px;
+    margin: 50px 0px;
     color: #ddd8d8;
     padding: 40px;
     font-family: "roboto";
     border: #000 solid 2px;
 }
 
-#service6 h1 {
+#service6 span.amare {
     font-weight: bold;
     margin-bottom: 20px;
     line-height: 35px;
-    color: #18e0e0;
+    color: rgb(224, 224, 10);
     font-size: 22px;
 }
 #service6 h2 {
     margin-bottom: 20px;
     }
-#service6 span {
+#service6 span.amare {
     font-size: 18px;
     font-weight: bold;
     line-height: 35px;
-    color: #18e0e0;
+    color: rgb(224, 224, 10);
     font-size: 22px;
 }
 #service6 h2:last-child {
     text-align: center;
     font-size: 50px;
 }
-
-
-
-
+/* ------------------------------ Footer */
 
 footer {
-    width: 100%;
+    width: auto;
     text-align: center;
     padding: 20px;
     background-color: #0047bb;
     color: white;
 }
+footer a {
+    color: #d1d1d1;    
+    text-decoration: none;
+}
 
-
+footer a:hover {
+    color: #fff;    
+}
 
 
 

@@ -1,20 +1,70 @@
-@media (max-width: 1200px) {
-    #service5 {
-        display: inline-block;
-    }
-    #service5 .brasil {
-        min-width: 300px;
-    }
-    #service5 .img {
-        min-width: 300px;
-    }
-    .brasil h1 {
-        margin-top: 50px;
-    }
+@media (min-width: 1820px) {
+    main {
+        margin: 50px 250px;
+    } 
 }
 
 
-@media (max-width: 820px) {
+@media (max-width: 970px) {
+    main {
+        margin: 0px;
+    }
+    section.brasil {
+        padding: 5px;
+    } 
+    #service2{ 
+            display: inline-block;
+    }
+    .serv_items {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto 0;
+    }
+    button.btn-item {
+        width: 320px;
+        margin-top: 0;
+    }
+    header {
+        display: none;
+    }
+    #service5 {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 20px 20px 0px;
+    }
+    #service5 .banner {
+        width: 80%;
+    }
+    #service5 .brasil{
+        max-width: 100%;
+        padding: 20px 20px 20px 10px;
+    }
+    
+    #service5 .brasil h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    #service5 .brasil p {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 20px;
+        text-align: justify;
+    }
+    button.btn-item {
+        width: 250px;
+    }
+}
+
+/*
+@media (max-width: 970px) {
+    main {
+        margin: 0px;
+    }
+    section.brasil {
+        padding: 5px;
+    } 
     #service2{ 
         display: inline-block;
     }
@@ -31,7 +81,29 @@
         display: none;
     }
     #service5 {
-        margin: 0px;
-        padding: 0px;
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 20px 20px 0px;
+    }
+    #service5 .banner {
+        width: 80%;
+    }
+    #service5 .brasil{
+        max-width: 100%;
+        padding: 20px 20px 20px 10px;
+    }
+
+    #service5 .brasil h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #service5 .brasil p {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 20px;
+        text-align: justify;
     }
 }
+    */

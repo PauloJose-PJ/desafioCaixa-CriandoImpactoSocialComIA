@@ -8,5 +8,67 @@ body {
     font-size: 20px;
 }
 
+/* ------------------------------ Header */
 
+header {
+    background-color: #0047bb;
+    border-bottom: #073783 solid 20px;
+    color: white;
+    padding: 15px;
+    display: flex;
+    height: 70px;
+    justify-content:space-around ;
+    align-items: center;
+}
+figure .logo {
+    width: 180px;
+    height: 75px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: #002868 solid;
+}
+figure .logo:hover {
+    transition: 1s;
+    transform: translateX(20px);
+}
 
+nav {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 15px 10px;
+    box-sizing: border-box;
+}
+nav a {
+    min-width: 120px;
+    color: white;
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 10px;
+    border-radius: 6px;
+    transition: 0.1s ease;
+    text-align: center;
+    background: #0d387e;
+    border: #0c2246 solid 2px;
+}
+nav a:hover {
+    color: #4b4300;
+    background-color: #ffdf28;
+}
+
+/* ------------------------------ Botões */
+a button.btn-item {
+    width: 300px;
+    font-size: 18px;
+    color: #696969;
+    font-weight: 700;
+}
+a button.btn-item:hover {
+    background: #f0f0f0;
+    color: #000;
+}
+
+#service2 h2:first-child {
+    width: 250px;
+}
